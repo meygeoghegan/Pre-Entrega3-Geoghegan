@@ -151,11 +151,6 @@
     border: solid rgb(102, 79, 3);
     background-color: rgb(241, 233, 194);
 }
-.tituloFormulario{
-    padding: 20px;
-    font-size: 30px;
-    margin: 10px;
-}
 .ubicacion{
     padding: 15px;
     margin: 20px;
@@ -424,7 +419,7 @@ footer{
     }
 }
 /*Quienes somos*/
-.quienesSomos{
+.tituloPagina{
     padding: 30px;
     font-size: 40px;
     font-family: Arial, Helvetica, sans-serif;
