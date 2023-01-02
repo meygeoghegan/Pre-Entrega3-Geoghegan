@@ -186,21 +186,11 @@
 .footer{
     background-color:  rgb(78, 134, 78);
 }
-.logoFacebook{
+.logoRedes{
     width: 60px;
     height: 60px;
     padding: 10px;
 
-}
-.logoInstagram{
-    width: 60px;
-    height: 60px;
-    padding: 10px;
-}
-.logoYoutube{
-    width: 60px;
-    height: 60px;
-    padding: 10px;
 }
 .footerTitulo{
     font-size: 18px;
