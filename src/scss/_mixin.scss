@@ -1,0 +1,9 @@
+@mixin tarjeta ($background, $colorLetra){
+    background-color: $background;
+    color: $colorLetra;
+    border: solid 4px rgb(77, 52, 6);
+    border-radius: 10px;
+    box-shadow: $sombra;
+    padding: 10px;
+    margin: 15px;
+}

@@ -1,0 +1,24 @@
+.ubicacion{
+    padding: 15px;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    .ubicacion__calle{
+        font-size: 18px;
+        margin-left: 20px;
+    }
+}
+.mapa{
+    margin-left: 60px;
+    margin-bottom: 60px;
+    padding: 10px;
+    width: 700px;
+    @media (max-width:747px){
+            width: 350px;
+            height: 350px;
+        }
+    @media(max-width: 413px){
+            width: 250px;
+            height: 250px;
+            margin-left: 40px;
+        }   
+}

@@ -1,0 +1,43 @@
+.formulario{
+    padding: 20px;
+    margin: 40px auto;
+    width: 600px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid rgb(124, 100, 22);
+    background-color: rgb(133, 168, 119);
+    box-shadow: 10px 10px 5px 0px rgba(80, 62, 2, 0.75);
+    @media (max-width:747px){
+            width: 450px;
+            margin: 20px;
+        }
+    @media (max-width:747px){
+            width: 340px;
+    }
+    @media (max-width:376px){
+            width: 250px;
+            margin: 10px;
+    }
+    .etiqueta{
+        font-size: 22px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: oblique;
+        @media(max-width:450px){
+            font-size: 18px;
+        }
+        @media (max-width:340px){
+            font-size: 16px;
+        }
+    }
+    .casillero{
+        @media (max-width:340px){
+            font-size: 13px;
+        }
+    }
+    .btn{
+        background-color: rgb(211, 170, 57);
+        font-family: Arial, Helvetica, sans-serif;
+        border: solid rgb(102, 79, 3);
+        color: black;
+        font-weight: 700;
+    }
+}

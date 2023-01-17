@@ -1,0 +1,32 @@
+.telefono{
+    width: 200px;
+    margin: 40px;
+    padding: 10px;
+    transition: 1s;
+    @media(max-width: 385px){
+        width: 100px;
+    }
+    &:hover{
+        transform: translate(800px, 5px);
+    }
+    @media(max-width: 1040px){
+        width: 150px;
+        &:hover{
+            transform: translate(600px, 5px);
+        }
+    }
+    @media(max-width: 786px){
+        width: 150px;
+        &:hover{
+            transform: translate(400px, 5px);
+        }
+    }
+    @media(max-width: 589px){
+        width: 100px;
+        margin: 5px;
+        &:hover{
+            transform: translate(200px, 5px);
+        }
+    }
+    
+}

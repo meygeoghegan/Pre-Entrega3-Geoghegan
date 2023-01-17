@@ -1,0 +1,54 @@
+.nosotrosDescrip{
+    padding: 10px;
+    margin-left: 20px;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;  
+}
+.fotosPersonas{
+    display: flex;
+    @media(max-width:1185px){
+        display: block;
+    }
+    @media(max-width:590px){
+        display: block;
+    }
+    .personas{
+        display: flex;
+        flex-wrap: wrap;
+        @media(max-width:1185px){
+            display: block;
+        }
+        @media(max-width:590px){
+            display: block;
+        }
+        .personasImg{
+            width: 500px;
+            margin: 60px;
+            height: 360px;
+            border: solid rgb(92, 68, 2);
+            @media(max-width:1185px){
+                width: 550px;
+                height: 380px;
+                margin-left: 100px;
+            }
+            @media(max-width:675px){
+                width: 340px;
+                height: 290px;
+            }
+            @media(max-width:465px){
+                width: 250px;
+                height: 200px;
+                margin-left: 20px;
+            }
+            
+        }
+        .personasDescrip{
+            font-size: 18px;
+            margin-left: 100px;
+            padding-bottom: 80px;
+            @media(max-width:465px){
+                margin-left: 20px;
+            }
+        }
+    }
+}
