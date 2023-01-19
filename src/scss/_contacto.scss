@@ -1,0 +1,35 @@
+.datosContacto{
+    display: grid;
+    grid-template-columns: 50px 180px;
+    grid-template-rows: 80px 80px 80px;
+    @media(max-width:800px){
+        margin-left: 30px;
+    }
+    @media(max-width:350px){
+        margin-left: 5px;
+    }
+    .iconoContacto{
+        width: 35px;
+        margin-left: 15px;
+    }
+    .fa-envelope{
+        font-size: 40px;
+        margin-left: 15px;
+    }
+    .infoContacto{
+        font-size: 15px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin: 10px;
+    }
+}
+.localizacion{
+    display: flex;
+    flex-direction: row;
+    @media(max-width:842px){
+        display:flex;
+        flex-direction: column;
+    }
+}
+
+
+

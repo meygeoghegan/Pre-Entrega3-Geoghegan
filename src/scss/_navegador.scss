@@ -4,17 +4,22 @@
     height: 70px;
     align-items: center;
     justify-content: start;
-    .fa-bars{
-        display: none;
-        @media(max-width:667px){
-            display: block;
-            color: white;
-            padding: 20px;
-            font-size: 30px;
-            &:hover + ul{
-                left: 0;
+    label{
+        .fa-bars{
+            display: none;
+            @media(max-width:667px){
+                display: block;
+                color: white;
+                padding: 20px;
+                font-size: 30px;
             }
         }
+    }
+    input[type=checkbox]{
+        display: none;
+    }
+    input[type=checkbox]:checked + ul{
+        left: 0;
     }
     ul{
         list-style-type: none;
@@ -25,8 +30,8 @@
             flex-direction: column;
             width: 250px;
             background-color: rgb(78, 134, 78);
-            height: 100vh;
-            top: 0;
+            height: calc(100vh - 70px);
+            bottom: 0;
             left: -300px;
             z-index: 100;   
             transition: 0,8s;
